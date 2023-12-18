@@ -1,7 +1,14 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ArrayReverse{
+public class ReverseArray{
+	public static int[] reverseArray(int[] array){
+	for (int index = array.length - 1; index >= 0; index--){
+		return array[i];
+	}
+	
+	}	
+
 	public static void main(String[] args){
 	Scanner scanner = new Scanner(System.in);
 	System.out.print("Enter the array size: ");
